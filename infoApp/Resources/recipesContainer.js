@@ -82,5 +82,6 @@ exports.openRecipesContainer = function(recipes) {
 
 	recipesContainer.add(recipes, recipesImage, logoView4, recipesDesc, verticalContainer, separatorLine, timesNumber);
 
+	
 	return recipesContainer;
 }; 

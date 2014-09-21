@@ -11,7 +11,7 @@ var tabGroup = Titanium.UI.createTabGroup({
 });
 
 var win1 = Titanium.UI.createWindow({
-	title : 'Bahamian Flavour',
+	title : 'Bahamian Flavour by Chef Apple',
 });
 
 var tab1 = Titanium.UI.createTab({

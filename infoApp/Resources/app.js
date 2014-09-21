@@ -94,7 +94,7 @@ var playerView = Ti.UI.createImageView({
 });
 
 playerView.addEventListener('click', function(e) {
-	Ti.Platform.openURL('http://www.youtube.com/watch?v=vh_LSWfi9Gk');
+	Ti.Platform.openURL('https://www.youtube.com/watch?v=ObvC_QP1ib4&list=UU41PNPG3V0RSIi-6siJHrJA');
 });
 
 //add to win2

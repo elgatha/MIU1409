@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.leeelgatha.information</id>
-    <name>information</name>
+    <id>come.leeelgatha.infoApp</id>
+    <name>infoApp</name>
     <version>1.0</version>
     <publisher>apple-elgatha</publisher>
     <url>http://</url>
@@ -11,7 +11,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>9fa50bce-a620-41c6-a172-957df4fb0a22</guid>
+    <guid>dda11e36-908b-4001-ac09-af2c53477307</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>

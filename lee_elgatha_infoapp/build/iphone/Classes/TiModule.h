@@ -13,7 +13,7 @@
 @class TiHost;
 
 /**
- The base class for all information modules
+ The base class for all infoApp modules
  */
 @interface TiModule : TiProxy 
 {
@@ -51,30 +51,30 @@
 // lifecycle
 
 /**
- information Platform calls this method on startup.
+ infoApp Platform calls this method on startup.
  */
 -(void)startup;
 
 /**
- information Platform calls this method on shutdown.
+ infoApp Platform calls this method on shutdown.
  @param sender The sender of the event.
  */
 -(void)shutdown:(id)sender;
 
 /**
- information Platform calls this method on suspend.
+ infoApp Platform calls this method on suspend.
  @param sender The sender of the event.
  */
 -(void)suspend:(id)sender;
 
 /**
- information Platform calls this method on entering background.
+ infoApp Platform calls this method on entering background.
  @param sender The sender of the event.
  */
 -(void)paused:(id)sender;
 
 /**
- information Platform calls this method on resume.
+ infoApp Platform calls this method on resume.
  @param sender The sender of the event.
  */
 -(void)resume:(id)sender;

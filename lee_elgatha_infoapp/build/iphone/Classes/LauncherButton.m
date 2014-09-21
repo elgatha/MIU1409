@@ -9,9 +9,9 @@
 
 
 // A good bit of this code was derived from the Three20 project
-// and was customized to work inside information
+// and was customized to work inside infoApp
 //
-// All modifications by information are licensed under 
+// All modifications by infoApp are licensed under 
 // the Apache License, Version 2.0
 //
 //

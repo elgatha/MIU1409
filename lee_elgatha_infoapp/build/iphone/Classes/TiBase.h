@@ -60,7 +60,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for information Developer console
+// in simulator we redefine to format for infoApp Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +309,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.information." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.infoapp." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.information";\
+	NSString * exceptionName = @"org.infoapp";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -415,28 +415,28 @@ DebugLog(@"[WARN] Ti%@.%@ DEPRECATED in %@, in favor of %@.",@"tanium",api,in,ne
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UIinformationNativeItemNone = -1, 
-	UIinformationNativeItemSpinner = -2,
-	UIinformationNativeItemProgressBar = -3,
+	UIinfoAppNativeItemNone = -1, 
+	UIinfoAppNativeItemSpinner = -2,
+	UIinfoAppNativeItemProgressBar = -3,
 	
-	UIinformationNativeItemSlider = -4,
-	UIinformationNativeItemSwitch = -5,
-	UIinformationNativeItemMultiButton = -6,
-	UIinformationNativeItemSegmented = -7,
+	UIinfoAppNativeItemSlider = -4,
+	UIinfoAppNativeItemSwitch = -5,
+	UIinfoAppNativeItemMultiButton = -6,
+	UIinfoAppNativeItemSegmented = -7,
 	
-	UIinformationNativeItemTextView = -8,
-	UIinformationNativeItemTextField = -9,
-	UIinformationNativeItemSearchBar = -10,
+	UIinfoAppNativeItemTextView = -8,
+	UIinfoAppNativeItemTextField = -9,
+	UIinfoAppNativeItemSearchBar = -10,
 	
-	UIinformationNativeItemPicker = -11,
-	UIinformationNativeItemDatePicker = -12,
+	UIinfoAppNativeItemPicker = -11,
+	UIinfoAppNativeItemDatePicker = -12,
 	
-	UIinformationNativeItemInfoLight = -13,
-	UIinformationNativeItemInfoDark = -14,
+	UIinfoAppNativeItemInfoLight = -13,
+	UIinfoAppNativeItemInfoDark = -14,
 	
-	UIinformationNativeItemDisclosure = -15,
+	UIinfoAppNativeItemDisclosure = -15,
 	
-	UIinformationNativeItemContactAdd = -16
+	UIinfoAppNativeItemContactAdd = -16
 };
 
 
@@ -614,7 +614,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
     
 /**
- *	TiThreadPerformOnMainThread should replace all information instances of
+ *	TiThreadPerformOnMainThread should replace all infoApp instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

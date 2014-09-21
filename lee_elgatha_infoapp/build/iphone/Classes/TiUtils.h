@@ -39,7 +39,7 @@ typedef enum {
 } EncodingError;
 
 /**
- information orientation flags.
+ infoApp orientation flags.
  */
 typedef enum
 {

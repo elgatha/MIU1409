@@ -1,0 +1,120 @@
+
+exports.array = {
+   
+   Fish : [
+        {
+            name: "Boiled Fish",
+            prep: "25 minutes",
+            cook: "45 minutes",
+            servings: "4",
+            specs: [
+                '• 2 pounds skinless grouper or hog snapper fillets',
+                '• 2 lemons, juiced and zest salt to taste',
+                '• 3 tablespoons butter',
+                '• 2 cups water',
+                '• 4 cups 6-Acres fish broth',
+                '• 1⁄2 pound potatoes, diced 1⁄2 teaspoon chopped garlic 1⁄2 goat pepper, chopped, to taste',
+                '• 2 large onions, diced',
+                '• 4 ounces chopped celery leaves',
+                '• 2 bay leaves',
+                '• 6-Acres hot pepper sour if zest is desired',
+            ],
+            desc: '1. Wash the fish fillets under a slow stream of cold water from the kitchen faucet and squeeze the juice of 2 lemons over the fillets. Sprinkle with salt to marinate. \n2. Place butter, fish broth and water in a non-reactive pot or deep pan over medium-high heat. Add the potatoes, garlic, parsley, hot pepper, salt and juice of 1 lemon.\n3. Bring to a boil (not a rolling boil, a silent boil) and cook about 10 minutes or until potatoes are almost done. Add the fish, top with the onions, celery and bay leaf, immediately reduce heat to simmer, cover and cook fish about 10 minutes or until cooked through. Do not overcook or let water boil (if you do, it will ruin this wonderful dish).\n4. In a warm bowl place hot buttered grits in the center and then ladle broth into bowl,next carefully place the fish on top of the grits. Serve with johnny cake and a side of 6-Acres hot pepper sour. Add lemon zest to finished dish as garnish.',
+            image: 'images/boil-fish.jpg',
+        }
+    ],
+    conch : [
+        {
+            name: "Conch Fritters",
+            prep: "10 minutes",
+            cook: "30 minutes",
+            servings: "8",
+            specs: [
+                '• 1 quart oil (for frying)',
+                '• 3/4 cup all-purpose flour',
+                '• 3 teaspoons baking powder',
+                '• 1 egg',
+                '• 1⁄2 cup milk',
+                '• salt to taste',
+                '• 1 tablespoon tomato paste',
+                '• 2 cups chopped conch',
+                '• 1 tablespoon fresh thyme, chopped fine 1 goat pepper, chopped fine',
+                '• 1⁄2 onion, chopped',
+                '• 1 cup green, yellow, red bell pepper, chopped fine',
+                '• 2 stalks celery, chopped fine 2 garlic cloves, chopped fine',
+                '• DIPPING SAUCE',
+                '• 2 tablespoons ketchup',
+                '• 2 tablespoons fresh lime juice, no subs',
+                '• 1 tablespoon mayonnaise',
+                '• 2 teaspoons garlic & chili sauce (you can get this from an Asian market)',
+            ],
+            desc: '1. Heat the oil in large pot or deep pan to 365 F̊ . In a bowl, mix the flour, egg and milk (place the ingredients in as they are listed). Season with cayenne pepper, seasoning salt and red pepper flakes.\n2. Mix in the conch meat, onion, red, yellow & green peppers, celery and garlic. Drop the batter by rounded tablespoons into the hot oil and fry until golden brown and float- ing to the top. BE CAREFUL! They plop a little and hot oil is no fun on your skin.\n3. Remove with a slotted spoon and drain on paper towels. In a bowl, mix the ketchup, “lime” juice, mayonnaise, garlic. Serve dipping sauce on the side with the fritters.',
+            image: 'images/conch-fritters.jpg',
+        },
+
+        {
+            name: "Conch Salad",
+            prep: "30 minutes",
+            cook: "2 minutes",
+            servings: "8",
+            specs: [
+                '• 1 lime, fresh squeezed',
+                '• 3 lemon, fresh squeezed',
+                '• 1 sour orange, fresh squeezed',
+                '• 1⁄2 cucumber, seeded, diced 2 large tomatoes, diced',
+                '• 2 pounds conch meat',
+                '• 1 large yellow onion, diced',
+                '• 1 large green pepper, seeded, diced',
+                '• 1 teaspoon salt',
+                '• 1⁄4 goat pepper, fine diced',
+            ],
+            desc: '1. Cut up conch into 1⁄4 inch sizes. Combine conch, onion, pepper, cucumber, tomatoes, salt and hot pepper in mixing bowl.\n2. Squeeze lime, lemon and orange over the ingredients. \n3. Stir well. Keep refrigerated.\nRECIPE NOTE: If you live in the northeast or near a large metropolitan area where conch is not available use its northern cousin the Whelk, commonly called scungilli.',
+            image: 'images/conch-salad.jpg',
+        },
+    ],
+    Chicken :
+    [
+        {
+            name: "Chicken Souse",
+            prep: "10 minutes",
+            cook: "45 minutes",
+            servings: "4",
+            specs: [
+                '• 1 pound of chicken, (preferably wings and/or drumsticks)',
+                '• 2 potatoes, chopped',
+                '• 2 carrots, chopped',
+                '• 2 sticks celery, chopped',
+                '• 1 onion, diced',
+                '• 32 ounces of 6-Acres free range chicken broth',
+                '• 2 cups water',
+                '• 1⁄2 cup allspice',
+                '• 1 or 2 bird peppers',
+                '• salt to taste',
+                '• 3 lemons cut in half',
+                '• 6-Acres hot pepper sour if zest is desired',
+            ],
+            desc: '1. Clean, chicken thoroughly with the juice of 11⁄2 lemon in a mixing bowl, then wash with cold water in a colander in an empty sink.\n2. Add chicken to a large pot and bring to a boil for approximately 10 minutes, then strain. Rinse chicken. Rinse the pot and return the chicken to it.\n3. Fill the pot with the chicken broth and water, return to boil. Add potatoes, celery, onions, bird peppers, allspice and salt. Continue cooking until the potatoes are done, skimming any residue that floats to the surface, stirring occasionally.\n4. Once the potatoes are done, you are ready to eat or serve. If you like spice,erve with a side of, 6-Acres hot pepper sour.',
+            image: 'images/bahamian-chicken-souse.jpg',
+
+        },
+    ],
+      Pork : [
+        {
+            name: "Pigs Feet Souse",
+            prep: "10 minutes",
+            cook: "180 minutes",
+            servings: "4",
+            specs: [
+                '• 1 1⁄2 - 2 pounds pigs feet 1 large onion coarsely, chopped',
+                '• 1 large carrot, chopped 32 ounces 6-Acres chicken broth or stock',
+                '• 1⁄4 cup fresh squeezed lemon juice',
+                '• 10 whole allspice',
+                '• white pepper and salt to taste',
+                '• 2 cups water',
+                '• 6-Acres hot pepper sour if zest is desired',
+            ],
+            desc: '1.Trim any hair or loose bone from feet. Bring pigs feet to boil and discard the water. (I usually rinse them just to get any excess grime of them) Repeat.\n2. Place in pot with onion, carrot, stock, lime juice or 6-Acres hot pepper sour, allspice, broth and water ample enough to cover all contents, bring to boil and then reduce heat and simmer for 2-3 hours.\n3. Season with salt and pepper to taste and serve. (If you would like a little bit more spicier -I like my nose to be running from the heat - add extra 6-Acres hot pepper sour to taste)',
+            image: 'images/pig-feet.jpg',
+        }
+    ],
+};

@@ -52,7 +52,7 @@
 @end
 
 /**
- Protocol for containment controller. Implemented by UIViewControllers that can host information Windows
+ Protocol for containment controller. Implemented by UIViewControllers that can host infoApp Windows
  */
 @protocol TiControllerContainment <NSObject>
 @required

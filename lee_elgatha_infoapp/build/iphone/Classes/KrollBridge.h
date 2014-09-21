@@ -19,9 +19,9 @@
 
 #ifdef KROLL_COVERAGE
 # import "KrollCoverage.h"
-@interface informationObject : KrollCoverageObject {
+@interface infoAppObject : KrollCoverageObject {
 #else
-@interface informationObject : KrollObject {
+@interface infoAppObject : KrollObject {
 #endif
 @private
 	NSMutableDictionary *modules;
@@ -35,7 +35,7 @@
 -(TiModule*)moduleNamed:(NSString*)name context:(id<TiEvaluator>)context;
 @end
 
-extern NSString * information$ModuleRequireFormat;
+extern NSString * infoApp$ModuleRequireFormat;
 
 @interface KrollBridge : Bridge<TiEvaluator,KrollDelegate> {
 @private
@@ -44,7 +44,7 @@ extern NSString * information$ModuleRequireFormat;
 	KrollContext *context;
 	NSDictionary *preload;
 	NSMutableDictionary *modules;
-	informationObject *_information;
+	infoAppObject *_infoapp;
     KrollObject* console;
 	BOOL shutdown;
     BOOL evaluationError;

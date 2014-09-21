@@ -50,7 +50,7 @@
     BOOL statusBarVisibilityChanged;
 }
 
-//information Support
+//infoApp Support
 -(CGRect)resizeView;
 -(void)repositionSubviews;
 -(UIView *)topWindowProxyView;
